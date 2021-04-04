@@ -1,6 +1,7 @@
 <script>
 	//Imports
 	import Button from "./Button.svelte";
+	import Counter from "./Counter.svelte";
 	import Data from "./Data.svelte";
 
 	//States
@@ -34,6 +35,7 @@
 	<input type="text" />
 	<button {disabled}>Click</button>
 	<Button {...buttonOptions} />
+	<Counter />
 </main>
 
 <style>
